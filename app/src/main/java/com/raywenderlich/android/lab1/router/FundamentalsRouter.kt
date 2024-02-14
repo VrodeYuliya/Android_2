@@ -15,6 +15,11 @@ sealed class Screen {
     object Buttons : Screen()
     object ProgressIndicator : Screen()
     object AlertDialog : Screen()
+    object Row : Screen()
+    object Column : Screen()
+    object Box : Screen()
+    object Surface : Screen()
+    object Scaffold : Screen()
 }
 
 object FundamentalsRouter {
