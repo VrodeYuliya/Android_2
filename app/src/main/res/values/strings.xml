@@ -17,5 +17,6 @@
     <string name="third">Третий</string>
     <string name="Row">Row</string>
     <string name="Column">Column</string>
+    <string name="Box">Box</string>
 
 </resources>
