@@ -21,5 +21,6 @@
     <string name="Surface">Surface</string>
     <string name="menu">menu</string>
     <string name="myComposeApp">MyComposeApp</string>
+    <string name="Scaffold">Scaffold</string>
 
 </resources>
