@@ -21,6 +21,24 @@ fun BoxScreen() {
     }
 }
         @Composable
-        fun MyBox(modifier: Modifier = Modifier) {
-//TODO write your code here
+        fun MyBox(modifier: Modifier = Modifier,
+                  contententModifier: Modifier = Modifier
+                  ) {
+            Box(modifier = modifier.fillMaxSize()) {
+                Text(
+                    text = stringResource(id = R.string.first),
+                    fontSize = 22.sp,
+                    modifier = contententModifier.align(Alignment.TopStart)
+                )
+
+                        Text ( text = stringResource(id = R.string.second),
+                                fontSize = 22.sp,
+                                modifier = contententModifier.align(Alignment.Center)
+                        )
+                                        Text(
+                                            text = stringResource(id = R.string.third),
+                                            fontSize = 22.sp,
+                                            modifier = contententModifier.align(Alignment. BottomEnd)
+                )
+            }
     }
