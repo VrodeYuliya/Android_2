@@ -18,5 +18,6 @@
     <string name="Row">Row</string>
     <string name="Column">Column</string>
     <string name="Box">Box</string>
+    <string name="Surface">Surface</string>
 
 </resources>
