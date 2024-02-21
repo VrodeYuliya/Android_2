@@ -27,8 +27,8 @@ fun RowScreen() {
 
 @Composable
 fun MyRow(){
-Row(verticalAlignment = Alignment. CenterVertically,
-horizontalArrangement = Arrangement. SpaceEvenly,
+Row(verticalAlignment = Alignment.CenterVertically,
+horizontalArrangement = Arrangement.SpaceEvenly,
 modifier = Modifier.fillMaxSize()) {
     THREE_ELEMENT_LIST.forEach { textResId ->
         Text(

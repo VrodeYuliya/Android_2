@@ -12,6 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import com.raywenderlich.android.lab1.router.Screen
+import org.intellij.lang.annotations.JdkConstants.HorizontalAlignment
+
 @Composable
 fun ColumnScreen() {
     MyColumn()
@@ -22,5 +24,16 @@ fun ColumnScreen() {
 }
         @Composable
         fun MyColumn() {
-//TODO write your code here
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.SpaceEvenly,
+                modifier = Modifier.fillMaxSize()
+            ) {
+                THREE_ELEMENT_LIST.forEach { textResId ->
+                    Text(
+                        text = stringResource(id = textResId),
+
+                        )
+                }
+            }
         }
