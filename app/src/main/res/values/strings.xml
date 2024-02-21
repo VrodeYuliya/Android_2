@@ -19,5 +19,7 @@
     <string name="Column">Column</string>
     <string name="Box">Box</string>
     <string name="Surface">Surface</string>
+    <string name="menu">menu</string>
+    <string name="myComposeApp">MyComposeApp</string>
 
 </resources>
